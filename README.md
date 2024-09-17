@@ -3,12 +3,12 @@
 Exercises for training Debugging UI and API.
 
 All exercises have detailed descriptions available after signing up here:
-https://jaktestowac.pl/play-debug/
+https://jaktestowac.pl/debug/
 You will receive a link to a recording of the webinar, a presentation, and tips (in Polish).
 
 ## Tested App
 
-Information on how to access the tested app is available on the page after registering here: https://jaktestowac.pl/play-debug/
+Information on how to access the tested app is available on the page after registering here: https://jaktestowac.pl/debug/
 
 ⚠️ Note: The free Glitch account is limited to 4,000 requests per hour. The app is deleted after 5 days without account activity.
 
