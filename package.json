@@ -1,0 +1,27 @@
+{
+  "name": "gui-api-webinar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "npx prettier --write .",
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:ui-mode": "npx playwright test --ui",
+    "test:repeat-each": "npx playwright test -g \"register user faker\" --repeat-each 5",
+    "test:debug": "npx playwright test -g \"register user faker\" --debug",
+    "test:debug-pw-api-bash": "DEBUG=pw:api npx playwright test --grep='login to the service with saved cookie'",
+    "show-report": "npx playwright show-report",
+    "test:tag": "npx playwright test --grep @tag"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@playwright/test": "^1.47.0",
+    "@types/node": "^22.4.1",
+    "dotenv": "^16.4.5",
+    "prettier": "^3.3.3"
+  }
+}
